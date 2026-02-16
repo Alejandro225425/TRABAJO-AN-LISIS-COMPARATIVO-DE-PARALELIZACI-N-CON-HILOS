@@ -1,0 +1,72 @@
+============================================================
+  COMPARACION DE RESULTADOS: SECUENCIAL vs PARALELO
+  Multiplicacion de Matrices - Sistemas Operativos
+============================================================
+
+Fecha de ejecucion: _______________
+Sistema: Windows 11
+Procesador: _______________
+Cores logicos: ___
+
+============================================================
+  TIEMPOS DE EJECUCION
+============================================================
+
+  Tamano      | Secuencial (s) | Paralelo (s) | Speedup
+  ------------|----------------|--------------|--------
+  5x5         |                |              |
+  100x100     |                |              |
+  300x300     |                |              |
+  500x500     |                |              |
+
+============================================================
+  USO DE MEMORIA (RAM)
+============================================================
+
+  Tamano      | MMS (MB) | MMP (MB) | Diferencia (MB)
+  ------------|----------|----------|----------------
+  5x5         |          |          |
+  100x100     |          |          |
+  300x300     |          |          |
+  500x500     |          |          |
+
+============================================================
+  TIEMPO EN MODO KERNEL vs USUARIO
+============================================================
+
+  Programa | Kernel (s) | Usuario (s) | Total (s) | % Kernel
+  ---------|------------|-------------|-----------|--------
+  MMS      |            |             |           |
+  MMP      |            |             |           |
+
+============================================================
+  METRICAS POR HILO (MMP - Matrices 300x300)
+============================================================
+
+  Hilo | Core | TID    | Filas       | Tiempo (s) | CPU Avg (%)
+  -----|------|--------|-------------|------------|------------
+  0    |      |        |             |            |
+  1    |      |        |             |            |
+  2    |      |        |             |            |
+  ...  |      |        |             |            |
+
+============================================================
+  CONCLUSIONES
+============================================================
+
+  1. Speedup obtenido (300x300): ___x
+  2. Eficiencia por hilo: ___%
+  3. Overhead de memoria: ___ MB adicionales en version paralela
+  4. Tiempo en kernel: MMP pasa ___% mas tiempo en modo kernel
+  5. Para matrices pequenas: ___
+
+============================================================
+  NOTAS
+============================================================
+
+  - Completar esta tabla ejecutando ambos programas
+  - Usar la misma semilla (42) para resultados reproducibles
+  - Las capturas de pantalla se encuentran en resultados/capturas/
+  - Los valores detallados estan en los archivos JSON correspondientes
+
+============================================================

@@ -1,0 +1,59 @@
+{
+  "programa": "MMS.cpp",
+  "tipo": "Secuencial (1 hilo)",
+  "fecha_ejecucion": "",
+  "sistema": {
+    "os": "Windows 11",
+    "procesador": "",
+    "cores_logicos": 0,
+    "ram_total_mb": 0
+  },
+  "configuracion": {
+    "filas_a": 300,
+    "columnas_a": 300,
+    "columnas_b": 300,
+    "semilla": 42
+  },
+  "resultados": {
+    "tiempo_ejecucion_s": 0.0,
+    "tiempo_cpu_consumido_s": 0.0,
+    "eficiencia_cpu_pct": 0.0
+  },
+  "memoria": {
+    "ram_antes_mb": 0.0,
+    "ram_despues_mb": 0.0,
+    "working_set_kb": 0,
+    "peak_working_set_kb": 0,
+    "private_bytes_kb": 0,
+    "page_faults": 0
+  },
+  "kernel": {
+    "tiempo_modo_kernel_s": 0.0,
+    "tiempo_modo_usuario_s": 0.0,
+    "porcentaje_kernel": 0.0,
+    "ciclos_cpu_totales": 0,
+    "frecuencia_estimada_ghz": 0.0
+  },
+  "io": {
+    "operaciones_lectura": 0,
+    "operaciones_escritura": 0,
+    "otras_operaciones": 0,
+    "bytes_leidos_kb": 0,
+    "bytes_escritos_kb": 0
+  },
+  "proceso": {
+    "pid": 0,
+    "tid_principal": 0,
+    "core_ejecucion": 0,
+    "prioridad": "NORMAL",
+    "modulos_cargados": 0,
+    "handles_abiertos": 0
+  },
+  "monitoreo_tiempo_real": {
+    "muestras": [],
+    "cpu_promedio_pct": 0.0,
+    "cpu_maximo_pct": 0.0,
+    "memoria_promedio_mb": 0.0,
+    "memoria_maxima_mb": 0.0
+  }
+}
